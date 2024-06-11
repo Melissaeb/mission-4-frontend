@@ -1,0 +1,110 @@
+.appContainer {
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+  width: 400px;
+}
+
+.minimised {
+  height: auto;
+}
+
+.chatHeader {
+  background-color: var(--main-colour);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.chatTitle {
+  color: #fff;
+  font-size: 20px;
+}
+
+.minimiseButton {
+  background-color: var(--main-colour);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+}
+
+.chatHistoryAndInput {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100%;
+  border-right: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+}
+
+.chatHistory {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 12px 16px;
+}
+
+.chatBox {
+  padding: 8px 16px 10px;
+  max-width: 70%;
+  margin-bottom: 12px;
+}
+
+.myChatBox {
+  background-color: var(--accent-colour);
+  border-radius: 8px 8px 0 8px;
+  align-self: flex-end;
+}
+
+.modelChatBox {
+  background-color: var(--main-colour);
+  border-radius: 8px 8px 8px 0;
+  align-self: flex-start;
+}
+
+.chatBox p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.formContainer {
+  display: flex;
+  gap: 8px;
+  border-top: solid 1px #ccc;
+  padding: 8px;
+}
+
+.messageInput {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+}
+
+.sendButton {
+  background-color: var(--main-colour);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+.hidden {
+  display: none;
+}

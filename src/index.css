@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  --main-colour: #013d6e;
+  --accent-colour: #b71234;
+  --very-light-grey: #eee;
+  --mid-grey: #9a9b9c;
+  --dark-grey: #363636;
+  color: var(--dark-grey);
+}
+
+.app {
+  height: 100vh;
+  position: relative;
+}
